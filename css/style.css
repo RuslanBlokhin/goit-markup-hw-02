@@ -17,14 +17,12 @@ body {
   color: var(--primary-text-color);
 
   font-family: roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-a {
-  text-decoration: none;
-}
-
-ul {
+.list {
   list-style: none;
 }
 
@@ -35,6 +33,7 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
 .logotip {
@@ -52,6 +51,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -69,6 +69,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .link-contact:hover,
@@ -98,6 +99,10 @@ ul {
   line-height: 1.87;
 }
 
+.employees-name {
+  color: var(--tittle-text-color);
+}
+
 /* Tittle */
 .hero-tittle {
   color: var(--primary-white-color);
@@ -124,30 +129,22 @@ ul {
   text-transform: uppercase;
 }
 
-.advantages .text {
-  font-size: 14px;
-  line-height: 1.7;
-}
-
-.employees-name {
-  color: var(--tittle-text-color);
-}
-
 /* Footer */
 
-footer {
+.low {
   background-color: #2f303a;
 }
 
-footer .link {
+.low .link {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  text-decoration: none;
 }
 
-footer .link:hover,
-footer .link:focus {
+.low .link:hover,
+.low .link:focus {
   color: var(--accent-color);
 }
 
@@ -179,4 +176,35 @@ footer .link:focus {
 .button.secondary {
   background-color: #f5f4fa;
   color: var(--tittle-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* Portfolio */
+/* Picture */
+
+.picture {
+  text-decoration: none;
+}
+
+.picture-name {
+  color: var(--tittle-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.picture-text {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
 }
